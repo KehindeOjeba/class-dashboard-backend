@@ -15,6 +15,13 @@
       "when": 1769246868985,
       "tag": "0001_wild_the_fury",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1769607294838,
+      "tag": "0002_complex_scarecrow",
+      "breakpoints": true
     }
   ]
 }
