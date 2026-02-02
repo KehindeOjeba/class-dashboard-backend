@@ -1,9 +1,9 @@
 import express from "express";
 import {db} from "../db/index.js";
-import {classes} from "../db/schema";
+import {classes} from "../db/schema.js";
 import {toNodeHandler} from "better-auth/node";
 const router = express.Router();
-
+//routes
 router.post('/', async (req, res) => {
     try {
         const [createdClass] = await db
